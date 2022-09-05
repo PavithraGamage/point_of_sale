@@ -47,7 +47,7 @@
                     <div class="row">
                         <div class="col-8" style="display: flex; flex-direction: row; align-content: center; align-items: center;">
                             <p class="mb-1">
-                                <a href="<?php echo site_url('password_forgot/reset_password') ?>">I forgot my password</a>
+                                <a href="<?php echo site_url('pos/password_reset') ?>">I forgot my password</a>
                             </p>
                         </div>
                         <!-- /.col -->

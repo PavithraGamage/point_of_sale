@@ -52,3 +52,21 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
  5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pos))
  6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 23:10:10 --> Cannot redeclare App\Controllers\Pos::new_items()
+in APPPATH\Controllers\Pos.php on line 52.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 23:10:12 --> Cannot redeclare App\Controllers\Pos::new_items()
+in APPPATH\Controllers\Pos.php on line 52.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 23:10:13 --> Cannot redeclare App\Controllers\Pos::new_items()
+in APPPATH\Controllers\Pos.php on line 52.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 23:10:16 --> Cannot redeclare App\Controllers\Pos::new_items()
+in APPPATH\Controllers\Pos.php on line 52.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 23:10:18 --> Cannot redeclare App\Controllers\Pos::new_items()
+in APPPATH\Controllers\Pos.php on line 52.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-05 23:10:19 --> Cannot redeclare App\Controllers\Pos::new_items()
+in APPPATH\Controllers\Pos.php on line 52.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

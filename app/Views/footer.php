@@ -1,10 +1,10 @@
 <footer class="main-footer">
-    <strong>Copyright &copy; 2018 - <?php echo date("Y") ?> | <a href="https://adminlte.io"><b>Point</b> of Sale</a>.</strong>
-    All rights reserved.
-    <div class="float-right d-none d-sm-inline-block">
-      <b>Version</b> 1.0.0
-    </div>
-  </footer>
+  <strong>Copyright &copy; 2018 - <?php echo date("Y") ?> | <a href="https://adminlte.io"><b>Point</b> of Sale</a>.</strong>
+  All rights reserved.
+  <div class="float-right d-none d-sm-inline-block">
+    <b>Version</b> 1.0.0
+  </div>
+</footer>
 
 <!-- jQuery -->
 <script src="<?php echo base_url('public/plugins/jquery/jquery.min.js') ?>"></script>
@@ -16,6 +16,10 @@
 </script>
 <!-- Bootstrap 4 -->
 <script src="<?php echo base_url('public/plugins/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
+<!-- Select2 -->
+<script src="<?php echo base_url('public/plugins/select2/js/select2.full.min.js') ?>"></script>
+<!-- date-range-picker -->
+<script src="<?php echo base_url('public/plugins/daterangepicker/daterangepicker.js') ?>"></script>
 <!-- DataTables  & Plugins -->
 <script src="<?php echo base_url('public/plugins/datatables/jquery.dataTables.min.js') ?>"></script>
 <script src="<?php echo base_url('public/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js') ?>"></script>
@@ -54,4 +58,5 @@
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="<?php echo base_url('public/dist/js/pages/dashboard.js') ?>"></script>
 </body>
+
 </html>

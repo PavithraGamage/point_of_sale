@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Controllers;
-
 use CodeIgniter\CodeIgniter;
 
 class Pos extends BaseController

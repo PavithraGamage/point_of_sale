@@ -42,224 +42,235 @@
             <!-- Main content -->
             <section class="content">
                 <div class="container-fluid">
+                    <!-- /.row -->
                     <div class="row">
-                        <div class="col">
-
+                        <div class="col-8">
                             <div class="card">
-
                                 <div class="card-header">
                                     <h3 class="card-title">Create New Invoice</h3>
                                 </div>
-
-                                <!-- /.card-header -->
                                 <div class="card-body">
                                     <div class="row">
-                                        <div class="col-9">
-                                            <div class="row">
-                                                <div class="col-3">
-                                                    <div class="form-group">
-                                                        <label>Invoice Date:</label>
-                                                        <div class="input-group date" id="invoice_date" data-target-input="nearest">
-                                                            <input type="text" class="form-control datetimepicker-input" data-target="#invoice_date" />
-                                                            <div class="input-group-append" data-target="#invoice_date" data-toggle="datetimepicker">
-                                                                <div class="input-group-text"><i class="fa fa-calendar"></i></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-3">
-                                                    <div class="form-group">
-                                                        <label>Invoice Due Date:</label>
-                                                        <div class="input-group date" id="invoice_due_date" data-target-input="nearest">
-                                                            <input type="text" class="form-control datetimepicker-input" data-target="#invoice_due_date" />
-                                                            <div class="input-group-append" data-target="#invoice_due_date" data-toggle="datetimepicker">
-                                                                <div class="input-group-text"><i class="fa fa-calendar"></i></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-4">
-                                                    <div class="form-group">
-                                                        <label>Client:</label>
-                                                        <select class="select2" style="width: 100%;">
-                                                            <option>- Select Client -</option>
-                                                            <option>Sulalitha Perera</option>
-                                                            <option>Anju Warnakula</option>
-                                                            <option>Shan Dias</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-2">
-                                                    <div class="form-group">
-                                                        <label>New Client:</label><br>
-                                                        <button class="btn btn-primary"><i class="fas fa-user-plus"></i> Add</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-10">
-                                                    <div class="form-group">
-                                                        <label>Add Item:</label>
-                                                        <select class="select2" style="width: 100%;">
-                                                            <option>- Select Item -</option>
-                                                            <option>Web Design</option>
-                                                            <option>Web Apps</option>
-                                                            <option>Web Development</option>
-                                                            <option>Facebook Page Setup</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-2">
-                                                    <div class="form-group">
-                                                        <label>New Item:</label><br>
-                                                        <button class="btn btn-primary"><i class="fas fa-tag"></i> Add</button>
+                                        <div class="col-3">
+                                            <div class="form-group">
+                                                <label>Invoice Date:</label>
+                                                <div class="input-group date" id="invoice_date" data-target-input="nearest">
+                                                    <input type="text" class="form-control datetimepicker-input" data-target="#invoice_date" />
+                                                    <div class="input-group-append" data-target="#invoice_date" data-toggle="datetimepicker">
+                                                        <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-3">
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <h3 class="card-title">Invoice Summary</h3>
+                                            <div class="form-group">
+                                                <label>Invoice Due Date:</label>
+                                                <div class="input-group date" id="invoice_due_date" data-target-input="nearest">
+                                                    <input type="text" class="form-control datetimepicker-input" data-target="#invoice_due_date" />
+                                                    <div class="input-group-append" data-target="#invoice_due_date" data-toggle="datetimepicker">
+                                                        <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                                    </div>
                                                 </div>
-                                                <div class="card-body">
-
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="form-group">
+                                                <label>Client:</label>
+                                                <div class="select2-blue">
+                                                    <select class="select2" data-placeholder="Select Client" data-dropdown-css-class="select2-blue" style="width: 100%;">
+                                                        <option>- Select Client - </option>
+                                                        <option>Sutotrims PVT LTD</option>
+                                                        <option>C & D International</option>
+                                                        <option>Eco Bathware PVT LTD</option>
+                                                        <option>Eureka Printers</option>
+                                                    </select>
                                                 </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="form-group">
+                                                <label>Insert Client:</label><br>
+                                                <button class="btn btn-primary"><i class="fas fa-user-plus"></i> Add Client</button>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
-
-
-
+                                        <div class="col-5">
+                                            <div class="form-group">
+                                                <label>Add Item:</label>
+                                                <div class="select2-blue">
+                                                    <select class="select2" data-placeholder="Select Item" data-dropdown-css-class="select2-blue" style="width: 100%;">
+                                                        <option>- Select Item - </option>
+                                                        <option>Web Design</option>
+                                                        <option>Web Apps</option>
+                                                        <option>Web Development</option>
+                                                        <option>Facebook Page Setup</option>
+                                                        <option>Web Design</option>
+                                                        <option>Web Apps</option>
+                                                        <option>Web Development</option>
+                                                        <option>Facebook Page Setup</option>
+                                                        <option>Web Design</option>
+                                                        <option>Web Apps</option>
+                                                        <option>Web Development</option>
+                                                        <option>Facebook Page Setup</option>
+                                                        <option>Web Design</option>
+                                                        <option>Web Apps</option>
+                                                        <option>Web Development</option>
+                                                        <option>Facebook Page Setup</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <p>If item not found <b>click here</b>  to add new item.</p>
+                                        </div>
+                                        <div class="col-2">
+                                            <label>Price:</label>
+                                            <input class="form-control" type="text" placeholder="Default input" aria-label="default input example" value="LKR 125,000.00">
+                                        </div>
+                                        <div class="col-1">
+                                            <label>Qty:</label>
+                                            <input class="form-control" type="text" placeholder="Default input" aria-label="default input example" value="80">
+                                        </div>
+                                        <div class="col-2">
+                                            <label>Discount:</label>
+                                            <input class="form-control" type="text" placeholder="Default input" aria-label="default input example" value="LKR 125,000.00">
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="form-group">
+                                                <label>Insert Item:</label><br>
+                                                <button class="btn btn-primary"><i class="fas fa-tag"></i> Add Item</button>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <!-- item add -->
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h3 class="card-title">Already Inserted Items</h3>
+                                        </div>
+                                        <!-- /.card-header -->
+                                        <div class="card-body">
+                                            <table id="items_table" class="table table-bordered table-striped table-hover">
+                                                <thead>
+                                                    <tr>
+                                                        <th style="width: 40px;">Delete</th>
+                                                        <th style="width: 500px;">Item Name</th>
+                                                        <th style="width: 73px;">Price</th>
+                                                        <th style="width: 49px;">Qty</th>
+                                                        <th style="width: 66px;">Discount</th>
+                                                        <th style="width: 72px;">Total</th>
+                                                        <th style="width: 25px;">Edit</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td><i class="fas fa-trash" style="color:red ;"></i></td>
+                                                        <td>Design Research</td>
+                                                        <td>125,000.00</td>
+                                                        <td>100 </td>
+                                                        <td>255,000</td>
+                                                        <td> 999,999.00</td>
+                                                        <td><i class="fas fa-edit" style="color:blue"></i></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><i class="fas fa-trash" style="color:red ;"></i></td>
+                                                        <td>User Research</td>
+                                                        <td>125,000.00</td>
+                                                        <td>100 </td>
+                                                        <td>255,000</td>
+                                                        <td> 999,999.00</td>
+                                                        <td><i class="fas fa-edit" style="color:blue"></i></td>
+                                                    </tr>
+
+                                                </tbody>
+                                                <tfoot>
+                                                    <tr>
+                                                        <th>Delete</th>
+                                                        <th>Item Name</th>
+                                                        <th>Price</th>
+                                                        <th>Qty</th>
+                                                        <th>Discount</th>
+                                                        <th>Total</th>
+                                                        <th>Edit</th>
+                                                    </tr>
+                                                </tfoot>
+                                            </table>
+                                        </div>
+                                        <!-- /.card-body -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h3 class="card-title">Invoice Summary</h3>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <h5><b>Client:</b></h5>
+                                            <h6><b>Email:</b></h6>
+                                            <h6><b>Address:</b></h6>
+                                        </div>
+                                        <div class="col-8">
+                                            <h5> Sutotrims PVT LTD.</h5>
+                                            <h6>sulalitha@sutospices.com</h6>
+                                            <h6>No: 58/E, Kesbewa Road, Kamburugoda, Bandaragama</h6>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex; flex-direction: row; justify-content: flex-end; margin-top: 15px">
+                                        <button class="btn btn-danger"><i class="fas fa-trash"></i> Remove Client</button>
+                                    </div>
                                     <hr>
                                     <div class="row">
-                                        <div class="col-12">
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <h3 class="card-title">Already Insert Items</h3>
+                                        <div class="col-6">
+                                            <h6><b>Items Count:</b></h6>
+                                            <h6><b>Sub Total:</b></h6>
+                                            <h4><b>Total:</b></h4>
+                                        </div>
+                                        <div class="col-6">
+                                            <h6>25</h6>
+                                            <h6>LKR 35,000.00</h6>
+                                            <h4><b>LKR 35,000.00</b></h4>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h6><b>Payments Total:</b></h6>
+                                            <h5><b>Amount Due:</b></h5>
 
-                                                    <div class="card-tools">
-                                                        <div class="input-group input-group-sm" style="width: 150px;">
-                                                            <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
+                                        </div>
+                                        <div class="col-6">
+                                            <h6><b>LKR 15,000.00</b></h6>
+                                            <h5><b>LKR 25,000.00</b></h5>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h6 style="margin-top:10px;"><b>Payment Type:</b></h6>
+                                            <h6 style="margin-top:10px;"><b>Amount Tendered:</b></h6>
 
-                                                            <div class="input-group-append">
-                                                                <button type="submit" class="btn btn-default">
-                                                                    <i class="fas fa-search"></i>
-                                                                </button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <h6>
+                                                <div class="select2-blue">
+                                                    <select class="select2" data-placeholder="Select Item" data-dropdown-css-class="select2-blue" style="width: 100%;">
+                                                        <option>Cash</option>
+                                                        <option>Bank Transfer</option>
+                                                        <option>Online Payment</option>
+                                                        <option>Check</option>
+                                                    </select>
                                                 </div>
-                                                <!-- /.card-header -->
-                                                <div class="card-body table-responsive p-0" style="height: 400px;">
-                                                    <table class="table table-head-fixed text-nowrap table-hover">
-                                                        <thead>
-                                                            <tr>
-                                                                <th style="width: 75px;">Delete</th>
-                                                                <th style="width: 65px;">ID</th>
-                                                                <th style="width: 575px;">Item Name</th>
-                                                                <th style="width: 125px;">Price LKR</th>
-                                                                <th style="width: 66px;">Qty</th>
-                                                                <th style="width: 85px;">Discount</th>
-                                                                <th style="width: 100px;">Total LKR</th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td><i class="fas fa-trash-alt" style="color:red;"></i></td>
-                                                                <td>1500</td>
-                                                                <td>Design Research</td>
-                                                                <td><input type="text" class="form-control" value="955,000.00"></td>
-                                                                <td><input type="text" class="form-control" value="1"></td>
-                                                                <td><input type="text" class="form-control" placeholder="0"></td>
-                                                                <td>925,000.00</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td><i class="fas fa-trash-alt" style="color:red;"></i></td>
-                                                                <td>1500</td>
-                                                                <td>Design Research</td>
-                                                                <td><input type="text" class="form-control" value="955,000.00"></td>
-                                                                <td><input type="text" class="form-control" value="1"></td>
-                                                                <td><input type="text" class="form-control" placeholder="0"></td>
-                                                                <td>925,000.00</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td><i class="fas fa-trash-alt" style="color:red;"></i></td>
-                                                                <td>1500</td>
-                                                                <td>Design Research</td>
-                                                                <td><input type="text" class="form-control" value="955,000.00"></td>
-                                                                <td><input type="text" class="form-control" value="1"></td>
-                                                                <td><input type="text" class="form-control" placeholder="0"></td>
-                                                                <td>925,000.00</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td><i class="fas fa-trash-alt" style="color:red;"></i></td>
-                                                                <td>1500</td>
-                                                                <td>Design Research</td>
-                                                                <td><input type="text" class="form-control" value="955,000.00"></td>
-                                                                <td><input type="text" class="form-control" value="1"></td>
-                                                                <td><input type="text" class="form-control" placeholder="0"></td>
-                                                                <td>925,000.00</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td><i class="fas fa-trash-alt" style="color:red;"></i></td>
-                                                                <td>1500</td>
-                                                                <td>Design Research</td>
-                                                                <td><input type="text" class="form-control" value="955,000.00"></td>
-                                                                <td><input type="text" class="form-control" value="1"></td>
-                                                                <td><input type="text" class="form-control" placeholder="0"></td>
-                                                                <td>925,000.00</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td><i class="fas fa-trash-alt" style="color:red;"></i></td>
-                                                                <td>1500</td>
-                                                                <td>Design Research</td>
-                                                                <td><input type="text" class="form-control" value="955,000.00"></td>
-                                                                <td><input type="text" class="form-control" value="1"></td>
-                                                                <td><input type="text" class="form-control" placeholder="0"></td>
-                                                                <td>925,000.00</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td><i class="fas fa-trash-alt" style="color:red;"></i></td>
-                                                                <td>1500</td>
-                                                                <td>Design Research</td>
-                                                                <td><input type="text" class="form-control" value="955,000.00"></td>
-                                                                <td><input type="text" class="form-control" value="1"></td>
-                                                                <td><input type="text" class="form-control" placeholder="0"></td>
-                                                                <td>925,000.00</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td><i class="fas fa-trash-alt" style="color:red;"></i></td>
-                                                                <td>1500</td>
-                                                                <td>Design Research</td>
-                                                                <td><input type="text" class="form-control" value="955,000.00"></td>
-                                                                <td><input type="text" class="form-control" value="1"></td>
-                                                                <td><input type="text" class="form-control" placeholder="0"></td>
-                                                                <td>925,000.00</td>
-                                                            </tr>
-
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                                <!-- /.card-body -->
-                                            </div>
-                                            <!-- /.card -->
+                                            </h6>
+                                            <input class="form-control" type="text" placeholder="Default input" aria-label="default input example">
+                                            </h6>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- /.card-body -->
                             </div>
-                            <!-- /.card -->
                         </div>
-
-
                     </div>
-                    <!-- /.row -->
-                </div>
-                <!-- /.container-fluid -->
+                    <!-- /.container-fluid -->
             </section>
             <!-- /.content -->
         </div>
@@ -281,5 +292,16 @@
 
             //select 2  
             $('.select2').select2()
+
+            // data tables
+            $('#items_table').DataTable({
+                "paging": true,
+                "lengthChange": true,
+                "searching": true,
+                "ordering": false,
+                "info": true,
+                "autoWidth": false,
+                "responsive": true,
+            });
         });
     </script>

@@ -1,27 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php $this->extend("base") ?>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Point of Sale | Add New Invoice</title>
-
-    <!-- header links -->
-    <?php include "header_links.php" ?>
-
-</head>
-
-<body class="hold-transition sidebar-mini layout-fixed">
-    <div class="wrapper">
-
-        <!-- top nav bar -->
-        <?php include "nav_bar.php" ?>
-
-        <!-- left side bar -->
-        <?php include "sidebar.php" ?>
-
-        <!-- Content Wrapper. Contains page content -->
-        <div class="content-wrapper">
+<?php $this->section("content") ?>
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
             <!-- Content Header (Page header) -->
             <section class="content-header">
                 <div class="container-fluid">
@@ -120,7 +101,7 @@
                                                     </select>
                                                 </div>
                                             </div>
-                                            <p>If item not found <b>click here</b>  to add new item.</p>
+                                            <p>If item not found <b>click here</b> to add new item.</p>
                                         </div>
                                         <div class="col-2">
                                             <label>Price:</label>
@@ -277,31 +258,5 @@
         <!-- /.content-wrapper -->
     </div>
     <!-- ./wrapper -->
-    <?php include "footer.php" ?>
-    <script>
-        $(function() {
-            //invoice date picker
-            $('#invoice_date').datetimepicker({
-                format: 'L'
-            });
 
-            //invoice due date picker
-            $('#invoice_due_date').datetimepicker({
-                format: 'L'
-            });
-
-            //select 2  
-            $('.select2').select2()
-
-            // data tables
-            $('#items_table').DataTable({
-                "paging": true,
-                "lengthChange": true,
-                "searching": true,
-                "ordering": false,
-                "info": true,
-                "autoWidth": false,
-                "responsive": true,
-            });
-        });
-    </script>
+<?php $this->endsection("content") ?>

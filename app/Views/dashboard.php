@@ -1,24 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Point of Sale | Dashboard</title>
-  
-  <!-- header links -->
-  <?php include "header_links.php" ?>
+<?php $this->extend("base") ?>
 
-</head>
-<body class="hold-transition sidebar-mini layout-fixed">
-<div class="wrapper">
-
-  <!-- top nav bar -->
-  <?php include "nav_bar.php" ?>
-
-  <!-- left side bar -->
-  <?php include "sidebar.php" ?>
-
-  <!-- Content Wrapper. Contains page content -->
+<?php $this->section("content") ?>
+<!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <div class="content-header">
@@ -117,5 +100,4 @@
   <!-- /.content-wrapper -->
 </div>
 <!-- ./wrapper -->
-
-<?php include "footer.php" ?>
+<?php $this->endsection("content") ?>

@@ -1,0 +1,8 @@
+CRITICAL - 2022-09-18 19:59:07 --> end(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Helpers\Array_helper.php on line 6.
+ 1 APPPATH\Helpers\Array_helper.php(6): end(null)
+ 2 APPPATH\Controllers\Helpers.php(10): get_random([...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Helpers->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Helpers))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

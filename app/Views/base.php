@@ -147,7 +147,7 @@
                         <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="<?php echo site_url() ?>" class="nav-link">
                                 <i class="nav-icon fas fa-tachometer-alt"></i>
                                 <p>
                                     Dashboard
@@ -166,13 +166,13 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="<?php echo site_url('invoice/new_invoice') ?>" class="nav-link">
+                                    <a href="<?php echo site_url('create-invoice') ?>" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>New Invoice</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="<?php echo site_url('invoice/all_invoices') ?>" class="nav-link">
+                                    <a href="<?php echo site_url('invoice-list') ?>" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>All Invoices</p>
                                     </a>
@@ -401,7 +401,7 @@
                 //select 2  
                 $('.select2').select2()
 
-                // data tables
+                // data tables -> new invoice
                 $('#items_table').DataTable({
                     "paging": true,
                     "lengthChange": true,

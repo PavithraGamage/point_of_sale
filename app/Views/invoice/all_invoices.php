@@ -31,7 +31,37 @@
                         <!-- /.card-header -->
                         <div class="card-body">
                             <!-- table -->
-                            <?php echo $users ?>
+                            <table id="example1" class="table table-bordered table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Rendering engine</th>
+                                        <th>Browser</th>
+                                        <th>Platform(s)</th>
+                                        <th>Engine version</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <?php foreach ($users as $list) { ?>
+                                        <tr>
+                                            <td><?php echo $list->user_id ?></td>
+                                            <td><?php echo $list->username ?></td>
+                                            <td><?php echo $list->password ?></td>
+                                            <td><?php echo $list->email ?></td>
+                                        </tr>
+                                    <?php } ?>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <th>Rendering engine</th>
+                                        <th>Browser</th>
+                                        <th>Platform(s)</th>
+                                        <th>Engine version</th>
+
+                                    </tr>
+                                </tfoot>
+                            </table>
+
                         </div>
                         <!-- /.card-body -->
                     </div>

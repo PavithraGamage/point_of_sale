@@ -1,0 +1,42 @@
+CRITICAL - 2022-09-12 17:05:39 --> CodeIgniter\View\Table::_prepArgs(): Argument #1 ($args) must be of type array, stdClass given, called in C:\xampp\htdocs\point_of_sale\system\View\Table.php on line 425
+in SYSTEMPATH\View\Table.php on line 224.
+ 1 SYSTEMPATH\View\Table.php(425): CodeIgniter\View\Table->_prepArgs(Object(stdClass))
+ 2 SYSTEMPATH\View\Table.php(271): CodeIgniter\View\Table->_setFromArray([...])
+ 3 APPPATH\Controllers\Invoice.php(72): CodeIgniter\View\Table->generate([...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Invoice->all_invoices()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoice))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-12 17:06:43 --> Undefined variable $users
+in APPPATH\Views\invoice\all_invoices.php on line 34.
+ 1 APPPATH\Views\invoice\all_invoices.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'APPPATH\\Views\\invoice\\all_invoices.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\invoice\\all_invoices.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('invoice/all_invoices', [], true)
+ 5 APPPATH\Controllers\Invoice.php(75): view('invoice/all_invoices', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Invoice->all_invoices()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-12 17:07:09 --> Array to string conversion
+in APPPATH\Views\invoice\all_invoices.php on line 34.
+ 1 APPPATH\Views\invoice\all_invoices.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\invoice\\all_invoices.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\invoice\\all_invoices.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('invoice/all_invoices', [], true)
+ 5 APPPATH\Controllers\Invoice.php(75): view('invoice/all_invoices', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Invoice->all_invoices()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-12 17:10:05 --> Array to string conversion
+in APPPATH\Views\invoice\all_invoices.php on line 34.
+ 1 APPPATH\Views\invoice\all_invoices.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\invoice\\all_invoices.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\invoice\\all_invoices.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('invoice/all_invoices', [], true)
+ 5 APPPATH\Controllers\Invoice.php(75): view('invoice/all_invoices', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Invoice->all_invoices()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

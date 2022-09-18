@@ -1,0 +1,49 @@
+CRITICAL - 2022-09-16 14:33:18 --> Invalid file: all_quotes.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('all_quotes.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('all_quotes', [], true)
+ 3 APPPATH\Controllers\Quotes.php(16): view('all_quotes')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Quotes->all_quotes()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quotes))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 14:33:22 --> Invalid file: all_quotes.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('all_quotes.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('all_quotes', [], true)
+ 3 APPPATH\Controllers\Quotes.php(16): view('all_quotes')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Quotes->all_quotes()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quotes))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 14:37:28 --> Array to string conversion
+in APPPATH\Views\invoice\all_invoices.php on line 34.
+ 1 APPPATH\Views\invoice\all_invoices.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\invoice\\all_invoices.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\invoice\\all_invoices.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('invoice/all_invoices', [], true)
+ 5 APPPATH\Controllers\Invoice.php(34): view('invoice/all_invoices', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Invoice->all_invoices()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoice))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 14:44:10 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\invoice\all_invoices.php on line 57.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('invoice/all_invoices', [], true)
+ 4 APPPATH\Controllers\Invoice.php(32): view('invoice/all_invoices', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Invoice->all_invoices()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoice))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-16 14:44:15 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\invoice\all_invoices.php on line 57.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('invoice/all_invoices', [], true)
+ 4 APPPATH\Controllers\Invoice.php(32): view('invoice/all_invoices', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Invoice->all_invoices()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoice))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
